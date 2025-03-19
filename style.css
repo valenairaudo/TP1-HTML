@@ -1,0 +1,22 @@
+body{
+    background-color: sienna;
+    display: block;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+header{
+    background-color: antiquewhite;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.titulo{
+    color: sienna;
+    font-size: 20px;
+}
+main{
+    background-color: antiquewhite;
+}
+footer{
+    background-color: antiquewhite;
+}
