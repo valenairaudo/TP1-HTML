@@ -1,58 +1,77 @@
 body{
-    display: block;
-    text-align: center;
-    padding-left: 20%;
-    padding-right: 20%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(119, 51, 119), rgb(228, 159, 228));
 }
-.titulo{
-    color:sienna;
-    font-size: 70px;
-}
-.avatar {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        border: 3px solid antiquewhite;
-        margin-top: -50px;
-        object-fit: cover;
+.Tarjeta{
+    width: 450px;
+    height: 550px;
+    border-left: auto;
+    background-color: white;
+    padding: 15px;
+    border-radius: 40px;
+    box-shadow:0 0 80px 4px black
 
 }
-#subtitulo{
-    color:sienna;
+.perfil{
+    position:absolute;
+    top: 105px;
+    left: 615px;
+    border-radius: 100%;
+    width: 110px;
+    border: 3px solid  rgb(214, 79, 207);
 }
-main{
-    display: flex;
-    padding: 10px;
-    justify-content: center;
+.fondo{
+    width: 450px;
+    height: 200px;
+}
+.contenedor{
+    width: 450px;
+    height: 650px;
+    text-align: center;
 }
 .a{
-    margin-right: 10px;
-    width: 50%;
+    text-align: center;
 }
-.b{
-    width: 50%;
+p{
+    padding-top: 5px;
+}
+section {
+    text-align: justify;
 }
 footer{
-    background-color: antiquewhite;
-    color: sienna;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
-.foto{
-    border-radius: 100%;
-    border: 2px solid antiquewhite;
-    margin-top: 10px;
+.youtube{
+    height: 35px;
+    width: 30px;
+    margin-right: 10px;
 }
-.section1{
-    background-color: antiquewhite;
-    margin-bottom: 1px;
-    padding-bottom: 8px;
+.instagram{
+    height: 35px;
+    width: 30px;
+    margin-right: 10px;
 }
-.section2{
-    background-color: antiquewhite;
-    padding-top: 5%;
-    padding-bottom: 5%;
+.tiktok{
+    height: 35px;
+    width: 30px;
+    margin-right: 10px;
 }
-.texto{
-    text-align: justify;
-    margin-left: 15%;
-    margin-right: 15%;
+.facebook{
+    height: 35px;
+    width: 30px;
+    margin-right: 10px;
+}
+.bt-seguir{
+margin-top: 30px;
+}
+.seguir{
+    height: 40px;
+    width: 30px;
+    background-color: rgb(214, 79, 207);
+    padding: 15px;
+    border-radius: 40px;
 }
